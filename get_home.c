@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* _gethome - funtion for env  HOME
-* @m: environment variables copy
-*Return: string in HOME env variable
+* _gethome - funtion to get env HOME
+* @m: copy of environment variables
+*Return: string inside the HOME env variable
 */
 char *_gethome(char **m)
 {
@@ -25,7 +25,7 @@ if (cont == 5)
 break;
 }
 if (cont == 5)
-}
+{
 home = m[i];
 for (k = 0; k < 5; k++)
 {
