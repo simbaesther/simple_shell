@@ -42,7 +42,7 @@ currentstatus(&salida);
 }
 return (salida);
 }
-/** 
+/**
 * _setenv - function to add or modify an environment variable
 * environ points to an array of pointers to strings called the "environment"
 * @myenv: icopy of environmental
